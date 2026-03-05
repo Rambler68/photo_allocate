@@ -3,7 +3,7 @@ BEGIN_OF_PATHES = "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot"
 PATH_TO_SOURCE = BEGIN_OF_PATHES + "\\Camera Uploads\\"
 PATH_TO_ARCHIVE = BEGIN_OF_PATHES + "\\Foto (Фото)\\" 
 
-FILE_NAME_BEGIN_LIST = ["IMG_", "VID_", "PANO_", "Screenshot_", "Screenrecorder-"]
+FILE_NAME_BEGIN_LIST = ["IMG_", "VID_", "video_", "PANO_", "Screenshot_", "Screenrecorder-"]
 
 import os
 from pathlib import Path
