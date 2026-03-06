@@ -15,6 +15,7 @@ data_folder = Path(PATH_TO_SOURCE)                          #(PATH_TO_SOURCE)
 data_folder_files = data_folder.glob("*.*")
 # global filecount = len(os.listdir(data_folder))
 
+#Основная функция
 def start_process():
     for myfile in sorted(data_folder_files):
         # print(f"Файл: {myfile}")cl
