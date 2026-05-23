@@ -20,9 +20,7 @@ PATH_TO_ARCHIVE: str = os.environ.get(
 )
 
 # ── Распознавание имён файлов ─────────────────────────────────────────────────
-FILE_NAME_BEGIN_LIST: list[str] = [
-    "IMG_", "VID_", "video_", "PANO_", "Screenshot_", "Screenrecorder-",
-]
+FILE_NAME_BEGIN_LIST: list[str] = ["IMG_", "VID_", "video_", "PANO_", "Screenshot_", "Screenrecorder-"]
 
 SUPPORTED_EXTENSIONS: set[str] = {
     ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".heic",
@@ -41,6 +39,10 @@ MAX_FEW_SHOT_EXAMPLES: int = 5
 
 # ── Кэш ──────────────────────────────────────────────────────────────────────
 CACHE_FILE: Path = Path(__file__).parent / "ai_label_cache.json"
+
+# ── Yandex Vision ─────────────────────────────────────────────────────────────
+YANDEX_VISION_API_KEY: str = os.environ.get("YANDEX_VISION_API_KEY", "")
+YANDEX_VISION_FOLDER_ID: str = os.environ.get("YANDEX_VISION_FOLDER_ID", "")
 
 # ── Логирование ───────────────────────────────────────────────────────────────
 LOG_LEVEL: str = os.environ.get("LOG_LEVEL", "INFO")   # DEBUG | INFO | WARNING

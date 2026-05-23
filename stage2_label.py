@@ -26,6 +26,9 @@ logger = logging.getLogger(__name__)
 
 IMAGE_EXTENSIONS: set[str] = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".heic"}
 
+# Max images to send to AI provider
+MAX_IMAGES_PER_REQUEST: int = 5
+
 
 # ── Вспомогательные функции ───────────────────────────────────────────────────
 
@@ -70,42 +73,35 @@ def _build_prompt(few_shot: list[dict]) -> str:
     return "\n".join(lines)
 
 
-# ── Gemini Vision ─────────────────────────────────────────────────────────────
+# ── AI Providers ─────────────────────────────────────────────────────────────
+from ai_providers import YandexVisionProvider, GeminiProvider
 
-def _call_gemini(images: list[Path], prompt: str) -> str | None:
+
+def _call_ai(images: list[Path], prompt: str) -> str | None:
     """
-    Отправляет изображения и промпт в Google Gemini Vision.
-    Возвращает строку-описание или None при ошибке.
+    Analyze images using primary provider (Yandex) with Gemini fallback
     """
+    # Try Yandex Vision first
     try:
-        import google.generativeai as genai  # pip install google-generativeai
-    except ImportError:
-        logger.error("Пакет google-generativeai не установлен. Выполните: pip install google-generativeai")
-        return None
-
-    if not config.GEMINI_API_KEY:
-        logger.error("GEMINI_API_KEY не задан в config.py или переменных окружения")
-        return None
-
-    genai.configure(api_key=config.GEMINI_API_KEY)
-    model = genai.GenerativeModel(config.GEMINI_MODEL)
-
-    # Формируем части запроса: промпт + изображения
-    parts: list = [prompt]
-    for img_path in images:
-        encoded = _encode_image(img_path)
-        if encoded:
-            mime = "image/jpeg" if img_path.suffix.lower() in {".jpg", ".jpeg"} else "image/png"
-            parts.append({"inline_data": {"mime_type": mime, "data": encoded}})
-
+        yandex_provider = YandexVisionProvider()
+        description = yandex_provider.analyze_images(images, prompt)
+        if description:
+            logger.debug("Yandex Vision responded: %r", description)
+            return description
+    except Exception as yandex_exc:
+        logger.warning("Yandex Vision failed: %s", yandex_exc)
+    
+    # Fallback to Gemini
     try:
-        response = model.generate_content(parts)
-        description = response.text.strip()
-        logger.debug("Gemini ответил: %r", description)
-        return description
-    except Exception as exc:
-        logger.error("Ошибка Gemini API: %s", exc)
-        return None
+        gemini_provider = GeminiProvider()
+        description = gemini_provider.analyze_images(images, prompt)
+        if description:
+            logger.debug("Gemini responded: %r", description)
+            return description
+    except Exception as gemini_exc:
+        logger.error("Gemini fallback failed: %s", gemini_exc)
+    
+    return None
 
 
 # ── Основной процесс ──────────────────────────────────────────────────────────
@@ -166,14 +162,14 @@ def label_folders(
                 stats["cached"] += 1
                 continue
 
-            images = _get_sample_images(date_dir)
+            images = _get_sample_images(date_dir)[:config.MAX_PHOTOS_PER_FOLDER]
             if not images:
                 logger.warning("Нет изображений в %s, пропуск", date_dir)
                 stats["skipped"] += 1
                 continue
 
             logger.info("Анализируем: %s (%d фото)", date_dir, len(images))
-            description = _call_gemini(images, prompt)
+            description = _call_ai(images, prompt)
 
             if not description:
                 logger.error("Не получено описание для %s", date_dir)
