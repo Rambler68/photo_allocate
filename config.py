@@ -28,8 +28,8 @@ SUPPORTED_EXTENSIONS: set[str] = {
 }
 
 # ── AI (Google Gemini Vision) ─────────────────────────────────────────────────
-GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL: str = "gemini-1.5-flash"
+GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "sk-uw-sQzNo4SfGX1naBxDqeatNRPUlJjbX")
+GEMINI_MODEL: str = "gemini-3.5-flash"
 
 # Максимальное число фото, которые отправляем в Gemini для одной папки
 MAX_PHOTOS_PER_FOLDER: int = 5
