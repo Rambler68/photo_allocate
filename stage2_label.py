@@ -74,14 +74,35 @@ def _build_prompt(few_shot: list[dict]) -> str:
 
 
 # ── AI Providers ─────────────────────────────────────────────────────────────
-from ai_providers import YandexVisionProvider, GeminiProvider
+from ai_providers import YandexVisionProvider, GeminiProvider, RouterAIProvider
 
 
 def _call_ai(images: list[Path], prompt: str) -> str | None:
     """
-    Analyze images using primary provider (Yandex) with Gemini fallback
+    Анализирует изображения:
+    RouterAI (основной) → Gemini (fallback 1) → Yandex Vision (fallback 2).
     """
-    # Try Yandex Vision first
+    # Основной провайдер — RouterAI (OpenAI-совместимый, мультимодальный)
+    try:
+        routerai_provider = RouterAIProvider()
+        description = routerai_provider.analyze_images(images, prompt)
+        if description:
+            logger.debug("RouterAI responded: %r", description)
+            return description
+    except Exception as routerai_exc:
+        logger.warning("RouterAI failed: %s", routerai_exc)
+
+    # Fallback 1: Google Gemini (SDK)
+    try:
+        gemini_provider = GeminiProvider()
+        description = gemini_provider.analyze_images(images, prompt)
+        if description:
+            logger.debug("Gemini responded: %r", description)
+            return description
+    except Exception as gemini_exc:
+        logger.warning("Gemini fallback failed: %s", gemini_exc)
+
+    # Fallback 2: Yandex Vision
     try:
         yandex_provider = YandexVisionProvider()
         description = yandex_provider.analyze_images(images, prompt)
@@ -90,17 +111,7 @@ def _call_ai(images: list[Path], prompt: str) -> str | None:
             return description
     except Exception as yandex_exc:
         logger.warning("Yandex Vision failed: %s", yandex_exc)
-    
-    # Fallback to Gemini
-    try:
-        gemini_provider = GeminiProvider()
-        description = gemini_provider.analyze_images(images, prompt)
-        if description:
-            logger.debug("Gemini responded: %r", description)
-            return description
-    except Exception as gemini_exc:
-        logger.error("Gemini fallback failed: %s", gemini_exc)
-    
+
     return None
 
 

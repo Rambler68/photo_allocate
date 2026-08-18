@@ -44,6 +44,13 @@ CACHE_FILE: Path = Path(__file__).parent / "ai_label_cache.json"
 YANDEX_VISION_API_KEY: str = os.environ.get("YANDEX_VISION_API_KEY", "")
 YANDEX_VISION_FOLDER_ID: str = os.environ.get("YANDEX_VISION_FOLDER_ID", "")
 
+# ── RouterAI (мультимодальный OpenAI-совместимый API) ─────────────────────────
+# Ключ не хардкодим, берём только из окружения — как остальные ключи проекта
+ROUTERAI_API_KEY: str = os.environ.get("ROUTERAI_API_KEY", "")
+ROUTERAI_BASE_URL: str = os.environ.get("ROUTERAI_BASE_URL", "https://routerai.ru/api/v1")
+# Имя модели — в формате RouterAI: <провайдер>/<модель>
+ROUTERAI_MODEL: str = os.environ.get("ROUTERAI_MODEL", "google/gemini-2.5-flash")
+
 # ── Логирование ───────────────────────────────────────────────────────────────
 LOG_LEVEL: str = os.environ.get("LOG_LEVEL", "INFO")   # DEBUG | INFO | WARNING
 LOG_FILE: Path = Path(__file__).parent / "photo_allocate.log"
