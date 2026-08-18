@@ -42,8 +42,8 @@ def _get_images(folder: Path, max_count: int = config.MAX_PHOTOS_PER_FOLDER) -> 
 
 def scan_archive(
     archive_root: Path | None = None,
-    year_from: int = 2010,
-    year_to: int = 2024,
+    year_from: int = 2005,
+    year_to: int = 2025,
     max_examples: int = 200,
 ) -> list[dict]:
     """

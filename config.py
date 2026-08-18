@@ -28,7 +28,7 @@ SUPPORTED_EXTENSIONS: set[str] = {
 }
 
 # ── AI (Google Gemini Vision) ─────────────────────────────────────────────────
-GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "sk-uw-sQzNo4SfGX1naBxDqeatNRPUlJjbX")
+GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL: str = "gemini-3.5-flash"
 
 # Максимальное число фото, которые отправляем в Gemini для одной папки
@@ -46,7 +46,7 @@ YANDEX_VISION_FOLDER_ID: str = os.environ.get("YANDEX_VISION_FOLDER_ID", "")
 
 # ── RouterAI (мультимодальный OpenAI-совместимый API) ─────────────────────────
 # Ключ не хардкодим, берём только из окружения — как остальные ключи проекта
-ROUTERAI_API_KEY: str = os.environ.get("ROUTERAI_API_KEY", "")
+ROUTERAI_API_KEY: str = os.environ.get("ROUTERAI_API_KEY", "sk-uw-sQzNo4SfGX1naBxDqeatNRPUlJjbX")
 ROUTERAI_BASE_URL: str = os.environ.get("ROUTERAI_BASE_URL", "https://routerai.ru/api/v1")
 # Имя модели — в формате RouterAI: <провайдер>/<модель>
 ROUTERAI_MODEL: str = os.environ.get("ROUTERAI_MODEL", "google/gemini-2.5-flash")
@@ -58,4 +58,4 @@ LOG_FILE: Path = Path(__file__).parent / "photo_allocate.log"
 # ── Режим сухого прогона ──────────────────────────────────────────────────────
 # True  — только вывод в лог, без реального перемещения / переименования
 # False — реальное выполнение операций
-DRY_RUN: bool = os.environ.get("DRY_RUN", "0") == "1"
+DRY_RUN: bool = os.environ.get("DRY_RUN", "0") == "0"
