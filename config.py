@@ -29,7 +29,7 @@ SUPPORTED_EXTENSIONS: set[str] = {
 
 # ── AI (Google Gemini Vision) ─────────────────────────────────────────────────
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL: str = "gemini-3.5-flash"
+GEMINI_MODEL: str = "gemini-3.7-flash"
 
 # Максимальное число фото, которые отправляем в Gemini для одной папки
 MAX_PHOTOS_PER_FOLDER: int = 5
@@ -58,4 +58,4 @@ LOG_FILE: Path = Path(__file__).parent / "photo_allocate.log"
 # ── Режим сухого прогона ──────────────────────────────────────────────────────
 # True  — только вывод в лог, без реального перемещения / переименования
 # False — реальное выполнение операций
-DRY_RUN: bool = os.environ.get("DRY_RUN", "0") == "0"
+DRY_RUN: bool = os.environ.get("DRY_RUN", "0") == "1"

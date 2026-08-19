@@ -1,377 +1,537 @@
 {
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2005\\01.30": {
+    "description": "Домашний ужин",
+    "labeled_name": "01.30 - Домашний ужин",
+    "timestamp": "2026-08-19T11:23:43.905025+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2016\\16.01": {
+    "description": "Зимняя прогулка в домике",
+    "labeled_name": "16.01 - Зимняя прогулка в домике",
+    "timestamp": "2026-08-19T11:23:51.990905+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2019\\09.30": {
+    "description": "Авария на дороге",
+    "labeled_name": "09.30 - Авария на дороге",
+    "timestamp": "2026-08-19T11:23:55.002360+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2022\\05.22": {
+    "description": "Веселимся на площадке",
+    "labeled_name": "05.22 - Веселимся на площадке",
+    "timestamp": "2026-08-19T11:23:59.586894+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2022\\08.05": {
+    "description": "Журнал учета работы",
+    "labeled_name": "08.05 - Журнал учета работы",
+    "timestamp": "2026-08-19T11:24:05.305884+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2022\\08.13": {
+    "description": "Разные события",
+    "labeled_name": "08.13 - Разные события",
+    "timestamp": "2026-08-19T11:24:10.613425+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2024\\05.31": {
+    "description": "Перевод денег",
+    "labeled_name": "05.31 - Перевод денег",
+    "timestamp": "2026-08-19T11:24:13.873905+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2024\\06.22": {
+    "description": "Занятия с детьми",
+    "labeled_name": "06.22 - Занятия с детьми",
+    "timestamp": "2026-08-19T11:24:16.310553+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2024\\07.16": {
+    "description": "Мое описание будет неверным, поскольку прикрепленные изображения не связаны между собой и не формируют общего события.",
+    "labeled_name": "07.16 - Мое описание будет неверным, поскольку прикрепленные изображения не связаны между собой и не формируют общего события.",
+    "timestamp": "2026-08-19T11:24:24.502269+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.11": {
+    "description": "Расходы за сентябрь",
+    "labeled_name": "09.11 - Расходы за сентябрь",
+    "timestamp": "2026-08-19T11:24:29.454126+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.12": {
+    "description": "Учеба и уроки",
+    "labeled_name": "09.12 - Учеба и уроки",
+    "timestamp": "2026-08-19T11:24:32.735285+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.14": {
+    "description": "Домашний любимец",
+    "labeled_name": "09.14 - Домашний любимец",
+    "timestamp": "2026-08-19T11:24:40.625327+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.16": {
+    "description": "Берёзовая роща осенью",
+    "labeled_name": "09.16 - Берёзовая роща осенью",
+    "timestamp": "2026-08-19T11:24:58.141623+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.19": {
+    "description": "Рабочий процесс в офисе",
+    "labeled_name": "09.19 - Рабочий процесс в офисе",
+    "timestamp": "2026-08-19T11:25:10.975683+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.20": {
+    "description": "Прогулка в лесу",
+    "labeled_name": "09.20 - Прогулка в лесу",
+    "timestamp": "2026-08-19T11:25:25.702828+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.22": {
+    "description": "Прогулка по осеннему парку",
+    "labeled_name": "09.22 - Прогулка по осеннему парку",
+    "timestamp": "2026-08-19T11:25:32.755228+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.23": {
+    "description": "Радио и мишка",
+    "labeled_name": "09.23 - Радио и мишка",
+    "timestamp": "2026-08-19T11:25:38.481667+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.24": {
+    "description": "Взвешиваем сумку",
+    "labeled_name": "09.24 - Взвешиваем сумку",
+    "timestamp": "2026-08-19T11:25:42.930532+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.28": {
+    "description": "Расходы и заметки",
+    "labeled_name": "09.28 - Расходы и заметки",
+    "timestamp": "2026-08-19T11:25:47.940713+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.29": {
+    "description": "Выбираем кэшбэк-категории",
+    "labeled_name": "09.29 - Выбираем кэшбэк-категории",
+    "timestamp": "2026-08-19T11:25:51.522877+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\09.30": {
+    "description": "Осенняя прогулка по городу",
+    "labeled_name": "09.30 - Осенняя прогулка по городу",
+    "timestamp": "2026-08-19T11:26:04.485000+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.02": {
+    "description": "Документы об ущербе и выплате",
+    "labeled_name": "10.02 - Документы об ущербе и выплате",
+    "timestamp": "2026-08-19T11:26:16.094811+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.03": {
+    "description": "Ошибка при загрузке системы",
+    "labeled_name": "10.03 - Ошибка при загрузке системы",
+    "timestamp": "2026-08-19T11:26:23.816839+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.05": {
+    "description": "Город и река",
+    "labeled_name": "10.05 - Город и река",
+    "timestamp": "2026-08-19T11:27:37.089180+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.14": {
+    "description": "Стикер на мониторе",
+    "labeled_name": "10.14 - Стикер на мониторе",
+    "timestamp": "2026-08-19T11:27:42.127352+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.18": {
+    "description": "Призовые скретч-карты",
+    "labeled_name": "10.18 - Призовые скретч-карты",
+    "timestamp": "2026-08-19T11:27:49.385600+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.24": {
+    "description": "Праздник награждения",
+    "labeled_name": "10.24 - Праздник награждения",
+    "timestamp": "2026-08-19T11:27:58.875135+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.28": {
+    "description": "Расходы за октябрь",
+    "labeled_name": "10.28 - Расходы за октябрь",
+    "timestamp": "2026-08-19T11:28:04.345917+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.29": {
+    "description": "Осень в парке",
+    "labeled_name": "10.29 - Осень в парке",
+    "timestamp": "2026-08-19T11:28:10.134027+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\10.31": {
+    "description": "Осенняя прогулка",
+    "labeled_name": "10.31 - Осенняя прогулка",
+    "timestamp": "2026-08-19T11:28:26.492924+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\11.05": {
+    "description": "Семейный бюджет ноябрь",
+    "labeled_name": "11.05 - Семейный бюджет ноябрь",
+    "timestamp": "2026-08-19T11:28:57.662718+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\11.08": {
+    "description": "Встреча с учителем",
+    "labeled_name": "11.08 - Встреча с учителем",
+    "timestamp": "2026-08-19T11:29:10.719192+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\11.09": {
+    "description": "Радуга над домом",
+    "labeled_name": "11.09 - Радуга над домом",
+    "timestamp": "2026-08-19T11:29:16.251554+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\11.11": {
+    "description": "Пропажа спортивной формы",
+    "labeled_name": "11.11 - Пропажа спортивной формы",
+    "timestamp": "2026-08-19T11:29:21.403099+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\11.13": {
+    "description": "Изучаем чеки и этикетки",
+    "labeled_name": "11.13 - Изучаем чеки и этикетки",
+    "timestamp": "2026-08-19T11:29:34.264023+00:00"
+  },
+  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2025\\11.16": {
+    "description": "Фестиваль боевых искусств",
+    "labeled_name": "11.16 - Фестиваль боевых искусств",
+    "timestamp": "2026-08-19T11:29:45.647626+00:00"
+  },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\01.13": {
-    "description": "Обычные будни дома",
-    "labeled_name": "01.13 - Обычные будни дома",
-    "timestamp": "2026-08-18T17:36:17.296043+00:00"
+    "description": "Рабочие будни",
+    "labeled_name": "01.13 - Рабочие будни",
+    "timestamp": "2026-08-19T11:29:55.738025+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\01.24": {
-    "description": "Утренний вид из окна",
-    "labeled_name": "01.24 - Утренний вид из окна",
-    "timestamp": "2026-08-18T17:36:29.058990+00:00"
+    "description": "Утро под солнцем",
+    "labeled_name": "01.24 - Утро под солнцем",
+    "timestamp": "2026-08-19T11:30:09.811197+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\01.25": {
-    "description": "Месяц над городом",
-    "labeled_name": "01.25 - Месяц над городом",
-    "timestamp": "2026-08-18T17:36:54.606932+00:00"
+    "description": "Луна над городом",
+    "labeled_name": "01.25 - Луна над городом",
+    "timestamp": "2026-08-19T11:30:16.951540+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\01.27": {
-    "description": "Костюмированный вечер дома",
-    "labeled_name": "01.27 - Костюмированный вечер дома",
-    "timestamp": "2026-08-18T17:37:25.012005+00:00"
+    "description": "Костюмированная фотосессия дома",
+    "labeled_name": "01.27 - Костюмированная фотосессия дома",
+    "timestamp": "2026-08-19T11:30:43.535756+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\01.29": {
-    "description": "Учебник по программированию",
-    "labeled_name": "01.29 - Учебник по программированию",
-    "timestamp": "2026-08-18T17:37:34.262771+00:00"
+    "description": "Книга по программированию",
+    "labeled_name": "01.29 - Книга по программированию",
+    "timestamp": "2026-08-19T11:30:51.125713+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.02": {
-    "description": "Зимние прогулки по городу",
-    "labeled_name": "02.02 - Зимние прогулки по городу",
-    "timestamp": "2026-08-18T17:37:55.051063+00:00"
+    "description": "Зима в городе",
+    "labeled_name": "02.02 - Зима в городе",
+    "timestamp": "2026-08-19T11:31:06.106278+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.03": {
-    "description": "Собачка спит на коврике",
-    "labeled_name": "02.03 - Собачка спит на коврике",
-    "timestamp": "2026-08-18T17:38:07.854240+00:00"
+    "description": "Собака сладко спит",
+    "labeled_name": "02.03 - Собака сладко спит",
+    "timestamp": "2026-08-19T11:31:17.145156+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.04": {
-    "description": "Зимняя прогулка с папой",
-    "labeled_name": "02.04 - Зимняя прогулка с папой",
-    "timestamp": "2026-08-18T17:38:23.357590+00:00"
+    "description": "Прогулка по заснеженному парку",
+    "labeled_name": "02.04 - Прогулка по заснеженному парку",
+    "timestamp": "2026-08-19T11:31:25.082645+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.05": {
-    "description": "Снежный путь на работу",
-    "labeled_name": "02.05 - Снежный путь на работу",
-    "timestamp": "2026-08-18T17:39:27.102816+00:00"
+    "description": "Зимний день в городе",
+    "labeled_name": "02.05 - Зимний день в городе",
+    "timestamp": "2026-08-19T11:31:38.334643+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.07": {
-    "description": "Заявление и ожидание",
-    "labeled_name": "02.07 - Заявление и ожидание",
-    "timestamp": "2026-08-18T17:39:44.677571+00:00"
+    "description": "Справка и аэропорт",
+    "labeled_name": "02.07 - Справка и аэропорт",
+    "timestamp": "2026-08-19T11:31:55.708967+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.08": {
-    "description": "Косплей Аватар в наушниках",
-    "labeled_name": "02.08 - Косплей Аватар в наушниках",
-    "timestamp": "2026-08-18T17:39:50.803425+00:00"
+    "description": "Грим Аватара, наушники",
+    "labeled_name": "02.08 - Грим Аватара, наушники",
+    "timestamp": "2026-08-19T11:32:00.548131+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.09": {
-    "description": "Зима и ремонт",
-    "labeled_name": "02.09 - Зима и ремонт",
-    "timestamp": "2026-08-18T17:40:05.684851+00:00"
+    "description": "Папа делает ремонт",
+    "labeled_name": "02.09 - Папа делает ремонт",
+    "timestamp": "2026-08-19T11:32:14.128329+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.13": {
-    "description": "Синяки и сосульки зимой",
-    "labeled_name": "02.13 - Синяки и сосульки зимой",
-    "timestamp": "2026-08-18T17:40:18.167904+00:00"
+    "description": "Ушиб от сосулек",
+    "labeled_name": "02.13 - Ушиб от сосулек",
+    "timestamp": "2026-08-19T11:32:25.726228+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.14": {
-    "description": "Стройка зимой",
-    "labeled_name": "02.14 - Стройка зимой",
-    "timestamp": "2026-08-18T17:40:24.529860+00:00"
+    "description": "Стройка в снегу",
+    "labeled_name": "02.14 - Стройка в снегу",
+    "timestamp": "2026-08-19T11:32:30.958280+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.15": {
-    "description": "Запись семейного бюджета",
-    "labeled_name": "02.15 - Запись семейного бюджета",
-    "timestamp": "2026-08-18T17:40:30.819234+00:00"
+    "description": "Семейный бюджет февраля",
+    "labeled_name": "02.15 - Семейный бюджет февраля",
+    "timestamp": "2026-08-19T11:32:34.201845+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.17": {
-    "description": "Зима. Застряли в снегу",
-    "labeled_name": "02.17 - Зима. Застряли в снегу",
-    "timestamp": "2026-08-18T17:40:35.945583+00:00"
+    "description": "Ночная пробка в снег",
+    "labeled_name": "02.17 - Ночная пробка в снег",
+    "timestamp": "2026-08-19T11:32:38.888099+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.19": {
-    "description": "Зима в городе",
-    "labeled_name": "02.19 - Зима в городе",
-    "timestamp": "2026-08-18T17:40:44.478985+00:00"
+    "description": "Зима туман снег город",
+    "labeled_name": "02.19 - Зима туман снег город",
+    "timestamp": "2026-08-19T11:34:46.783391+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.20": {
-    "description": "Зимний день в городе",
-    "labeled_name": "02.20 - Зимний день в городе",
-    "timestamp": "2026-08-18T17:40:51.186466+00:00"
+    "description": "Зимний пейзаж города",
+    "labeled_name": "02.20 - Зимний пейзаж города",
+    "timestamp": "2026-08-19T11:34:52.703427+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\02.23": {
     "description": "Показания счётчиков",
     "labeled_name": "02.23 - Показания счётчиков",
-    "timestamp": "2026-08-18T17:41:03.453806+00:00"
+    "timestamp": "2026-08-19T11:35:03.895085+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.02": {
     "description": "Реклама цирка Максимус",
     "labeled_name": "03.02 - Реклама цирка Максимус",
-    "timestamp": "2026-08-18T17:41:22.734319+00:00"
+    "timestamp": "2026-08-19T11:35:19.980955+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.03": {
     "description": "Зимняя прогулка в березах",
     "labeled_name": "03.03 - Зимняя прогулка в березах",
-    "timestamp": "2026-08-18T17:41:32.748320+00:00"
+    "timestamp": "2026-08-19T11:35:32.656793+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.05": {
-    "description": "Прогулка по зимнему городу",
-    "labeled_name": "03.05 - Прогулка по зимнему городу",
-    "timestamp": "2026-08-18T17:41:45.926373+00:00"
+    "description": "Поздравления в коридоре",
+    "labeled_name": "03.05 - Поздравления в коридоре",
+    "timestamp": "2026-08-19T11:35:47.979515+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.07": {
-    "description": "Зимние прогулки и кафе",
-    "labeled_name": "03.07 - Зимние прогулки и кафе",
-    "timestamp": "2026-08-18T17:41:53.215510+00:00"
+    "description": "Зимний вечер и корова",
+    "labeled_name": "03.07 - Зимний вечер и корова",
+    "timestamp": "2026-08-19T11:36:55.396132+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.10": {
     "description": "Зимняя прогулка на машине",
     "labeled_name": "03.10 - Зимняя прогулка на машине",
-    "timestamp": "2026-08-18T17:42:09.773971+00:00"
+    "timestamp": "2026-08-19T11:37:06.529668+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.12": {
     "description": "Птица на дереве",
     "labeled_name": "03.12 - Птица на дереве",
-    "timestamp": "2026-08-18T17:42:23.486930+00:00"
+    "timestamp": "2026-08-19T11:38:18.612088+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.13": {
     "description": "Зимняя прогулка",
     "labeled_name": "03.13 - Зимняя прогулка",
-    "timestamp": "2026-08-18T17:42:42.772080+00:00"
+    "timestamp": "2026-08-19T11:38:26.140750+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.14": {
-    "description": "Поверка счётчиков воды",
-    "labeled_name": "03.14 - Поверка счётчиков воды",
-    "timestamp": "2026-08-18T17:42:55.402464+00:00"
+    "description": "Поверка счетчиков воды",
+    "labeled_name": "03.14 - Поверка счетчиков воды",
+    "timestamp": "2026-08-19T11:38:34.401796+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.16": {
-    "description": "Фотосессия на улице",
-    "labeled_name": "03.16 - Фотосессия на улице",
-    "timestamp": "2026-08-18T17:43:39.486957+00:00"
+    "description": "Зима в городе",
+    "labeled_name": "03.16 - Зима в городе",
+    "timestamp": "2026-08-19T11:38:44.781276+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.17": {
     "description": "Объявление для жителей",
     "labeled_name": "03.17 - Объявление для жителей",
-    "timestamp": "2026-08-18T17:43:51.915031+00:00"
+    "timestamp": "2026-08-19T11:38:50.162705+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.18": {
-    "description": "Рассвет над зимним городом",
-    "labeled_name": "03.18 - Рассвет над зимним городом",
-    "timestamp": "2026-08-18T17:44:06.827859+00:00"
+    "description": "Зимнее утро за окном",
+    "labeled_name": "03.18 - Зимнее утро за окном",
+    "timestamp": "2026-08-19T11:39:01.355219+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.20": {
-    "description": "Театральное выступление детей",
-    "labeled_name": "03.20 - Театральное выступление детей",
-    "timestamp": "2026-08-18T17:44:15.280039+00:00"
+    "description": "Выступление на сцене",
+    "labeled_name": "03.20 - Выступление на сцене",
+    "timestamp": "2026-08-19T11:39:04.706570+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.22": {
-    "description": "Поездка к храму весной",
-    "labeled_name": "03.22 - Поездка к храму весной",
-    "timestamp": "2026-08-18T17:44:51.419818+00:00"
+    "description": "Прогулка у храма",
+    "labeled_name": "03.22 - Прогулка у храма",
+    "timestamp": "2026-08-19T11:39:16.304448+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.23": {
     "description": "Счетчики воды",
     "labeled_name": "03.23 - Счетчики воды",
-    "timestamp": "2026-08-18T17:44:57.958775+00:00"
+    "timestamp": "2026-08-19T11:39:22.339704+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.24": {
-    "description": "Зимняя прогулка",
-    "labeled_name": "03.24 - Зимняя прогулка",
-    "timestamp": "2026-08-18T17:45:49.832384+00:00"
+    "description": "Зимняя прогулка с папой",
+    "labeled_name": "03.24 - Зимняя прогулка с папой",
+    "timestamp": "2026-08-19T11:39:35.027651+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.28": {
-    "description": "Разговор у воды",
-    "labeled_name": "03.28 - Разговор у воды",
-    "timestamp": "2026-08-18T17:46:07.830169+00:00"
+    "description": "Встреча у воды",
+    "labeled_name": "03.28 - Встреча у воды",
+    "timestamp": "2026-08-19T11:39:43.202080+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.29": {
     "description": "Лазертаг с друзьями",
     "labeled_name": "03.29 - Лазертаг с друзьями",
-    "timestamp": "2026-08-18T17:46:24.052776+00:00"
+    "timestamp": "2026-08-19T11:40:54.449391+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\03.31": {
-    "description": "Полная Луна над городом",
-    "labeled_name": "03.31 - Полная Луна над городом",
-    "timestamp": "2026-08-18T17:46:43.408491+00:00"
+    "description": "Вечерняя прогулка под Луной",
+    "labeled_name": "03.31 - Вечерняя прогулка под Луной",
+    "timestamp": "2026-08-19T11:41:03.200206+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.02": {
     "description": "Весенняя прогулка",
     "labeled_name": "04.02 - Весенняя прогулка",
-    "timestamp": "2026-08-18T17:46:54.643813+00:00"
+    "timestamp": "2026-08-19T11:41:10.847893+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.03": {
-    "description": "Смотрим в окно",
-    "labeled_name": "04.03 - Смотрим в окно",
-    "timestamp": "2026-08-18T17:48:13.417314+00:00"
+    "description": "Смотрим из окна",
+    "labeled_name": "04.03 - Смотрим из окна",
+    "timestamp": "2026-08-19T11:41:18.752134+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.04": {
-    "description": "Творческая встреча",
-    "labeled_name": "04.04 - Творческая встреча",
-    "timestamp": "2026-08-18T17:48:40.051610+00:00"
+    "description": "Выступление в библиотеке",
+    "labeled_name": "04.04 - Выступление в библиотеке",
+    "timestamp": "2026-08-19T11:41:28.917989+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.05": {
-    "description": "Оформление документов на санаторий",
-    "labeled_name": "04.05 - Оформление документов на санаторий",
-    "timestamp": "2026-08-18T17:48:46.266400+00:00"
+    "description": "Документы для налогового вычета",
+    "labeled_name": "04.05 - Документы для налогового вычета",
+    "timestamp": "2026-08-19T11:41:33.735770+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.06": {
-    "description": "Семейный бюджет",
-    "labeled_name": "04.06 - Семейный бюджет",
-    "timestamp": "2026-08-18T17:49:00.659120+00:00"
+    "description": "Финансовые записи расходы",
+    "labeled_name": "04.06 - Финансовые записи расходы",
+    "timestamp": "2026-08-19T11:41:39.804846+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.08": {
-    "description": "Результаты анализов и ЭКГ",
-    "labeled_name": "04.08 - Результаты анализов и ЭКГ",
-    "timestamp": "2026-08-18T17:49:06.553088+00:00"
+    "description": "Медицинские анализы ребенка",
+    "labeled_name": "04.08 - Медицинские анализы ребенка",
+    "timestamp": "2026-08-19T11:41:44.692583+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.10": {
-    "description": "Медицинское заключение Тхэквондо",
-    "labeled_name": "04.10 - Медицинское заключение Тхэквондо",
-    "timestamp": "2026-08-18T17:49:21.700539+00:00"
+    "description": "Медицинская справка для спорта",
+    "labeled_name": "04.10 - Медицинская справка для спорта",
+    "timestamp": "2026-08-19T11:41:48.993799+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.11": {
-    "description": "Ремонт от Вячеслава",
-    "labeled_name": "04.11 - Ремонт от Вячеслава",
-    "timestamp": "2026-08-18T17:49:34.257776+00:00"
+    "description": "Ремонт в квартире",
+    "labeled_name": "04.11 - Ремонт в квартире",
+    "timestamp": "2026-08-19T11:41:56.020182+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.12": {
-    "description": "Красивый закат из окна",
-    "labeled_name": "04.12 - Красивый закат из окна",
-    "timestamp": "2026-08-18T17:49:47.862232+00:00"
+    "description": "Закат над городом",
+    "labeled_name": "04.12 - Закат над городом",
+    "timestamp": "2026-08-19T11:42:07.391700+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.14": {
-    "description": "Семейные расходы",
-    "labeled_name": "04.14 - Семейные расходы",
-    "timestamp": "2026-08-18T17:49:57.840039+00:00"
+    "description": "Список покупок",
+    "labeled_name": "04.14 - Список покупок",
+    "timestamp": "2026-08-19T11:42:11.453662+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.15": {
     "description": "Прогулка у большого дерева",
     "labeled_name": "04.15 - Прогулка у большого дерева",
-    "timestamp": "2026-08-18T17:51:18.310031+00:00"
+    "timestamp": "2026-08-19T11:42:20.474216+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.16": {
-    "description": "Весенний день с котом",
-    "labeled_name": "04.16 - Весенний день с котом",
-    "timestamp": "2026-08-18T17:51:30.420500+00:00"
+    "description": "Весенняя прогулка с котом",
+    "labeled_name": "04.16 - Весенняя прогулка с котом",
+    "timestamp": "2026-08-19T11:42:33.550924+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.17": {
-    "description": "Паспорт Ирины",
-    "labeled_name": "04.17 - Паспорт Ирины",
-    "timestamp": "2026-08-18T17:51:36.079341+00:00"
+    "description": "Загранпаспорт Ирины",
+    "labeled_name": "04.17 - Загранпаспорт Ирины",
+    "timestamp": "2026-08-19T11:42:37.720893+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.18": {
-    "description": "Дорога и город",
-    "labeled_name": "04.18 - Дорога и город",
-    "timestamp": "2026-08-18T17:52:04.794323+00:00"
+    "description": "Поездка по городу",
+    "labeled_name": "04.18 - Поездка по городу",
+    "timestamp": "2026-08-19T11:42:48.491646+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.20": {
-    "description": "Вид из окна весной",
-    "labeled_name": "04.20 - Вид из окна весной",
-    "timestamp": "2026-08-18T17:52:11.806616+00:00"
+    "description": "Прогулка по городу весной",
+    "labeled_name": "04.20 - Прогулка по городу весной",
+    "timestamp": "2026-08-19T11:42:55.155295+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.21": {
-    "description": "Семейный бюджет расходы",
-    "labeled_name": "04.21 - Семейный бюджет расходы",
-    "timestamp": "2026-08-18T17:52:16.139643+00:00"
+    "description": "Расходы по списку",
+    "labeled_name": "04.21 - Расходы по списку",
+    "timestamp": "2026-08-19T11:42:59.816095+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.25": {
     "description": "Показания счетчиков",
     "labeled_name": "04.25 - Показания счетчиков",
-    "timestamp": "2026-08-18T17:52:34.381872+00:00"
+    "timestamp": "2026-08-19T11:43:09.398099+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.28": {
-    "description": "Купаем собаку в ванной",
-    "labeled_name": "04.28 - Купаем собаку в ванной",
-    "timestamp": "2026-08-18T17:52:40.273226+00:00"
+    "description": "Моем собаку в ванной",
+    "labeled_name": "04.28 - Моем собаку в ванной",
+    "timestamp": "2026-08-19T11:43:14.301418+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\04.30": {
-    "description": "Старый кран крупным планом",
-    "labeled_name": "04.30 - Старый кран крупным планом",
-    "timestamp": "2026-08-18T17:52:57.197229+00:00"
+    "description": "Замена кран-буксы",
+    "labeled_name": "04.30 - Замена кран-буксы",
+    "timestamp": "2026-08-19T11:43:21.411001+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.03": {
-    "description": "Апрельские расходы на еду",
-    "labeled_name": "05.03 - Апрельские расходы на еду",
-    "timestamp": "2026-08-18T17:53:04.815555+00:00"
+    "description": "Семейный бюджет апрель",
+    "labeled_name": "05.03 - Семейный бюджет апрель",
+    "timestamp": "2026-08-19T11:43:25.428682+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.04": {
-    "description": "Весенняя прогулка в парке",
-    "labeled_name": "05.04 - Весенняя прогулка в парке",
-    "timestamp": "2026-08-18T17:53:32.087596+00:00"
+    "description": "Прогулка в парке",
+    "labeled_name": "05.04 - Прогулка в парке",
+    "timestamp": "2026-08-19T11:43:37.383524+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.05": {
-    "description": "Записи в блокноте",
-    "labeled_name": "05.05 - Записи в блокноте",
-    "timestamp": "2026-08-18T17:53:43.919371+00:00"
+    "description": "Записки в ежедневнике",
+    "labeled_name": "05.05 - Записки в ежедневнике",
+    "timestamp": "2026-08-19T11:43:47.436332+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.06": {
     "description": "Покупки и прогулка",
     "labeled_name": "05.06 - Покупки и прогулка",
-    "timestamp": "2026-08-18T17:54:11.358938+00:00"
+    "timestamp": "2026-08-19T11:43:59.061563+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.07": {
     "description": "Курят на лавочке",
     "labeled_name": "05.07 - Курят на лавочке",
-    "timestamp": "2026-08-18T17:54:41.402703+00:00"
+    "timestamp": "2026-08-19T11:44:08.641922+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.24": {
     "description": "Детский рисунок на дереве",
     "labeled_name": "05.24 - Детский рисунок на дереве",
-    "timestamp": "2026-08-18T17:54:46.898288+00:00"
+    "timestamp": "2026-08-19T11:44:14.653819+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.26": {
     "description": "Окно в театр",
     "labeled_name": "05.26 - Окно в театр",
-    "timestamp": "2026-08-18T17:55:34.938451+00:00"
+    "timestamp": "2026-08-19T11:44:37.371358+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.28": {
-    "description": "За рулём, закат над городом",
-    "labeled_name": "05.28 - За рулём, закат над городом",
-    "timestamp": "2026-08-18T17:55:45.566651+00:00"
+    "description": "Дорога и закат",
+    "labeled_name": "05.28 - Дорога и закат",
+    "timestamp": "2026-08-19T11:44:45.582981+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\05.30": {
-    "description": "Дети на празднике",
-    "labeled_name": "05.30 - Дети на празднике",
-    "timestamp": "2026-08-18T17:55:58.022713+00:00"
+    "description": "Спортивное мероприятие детей",
+    "labeled_name": "05.30 - Спортивное мероприятие детей",
+    "timestamp": "2026-08-19T11:44:58.746625+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.01": {
-    "description": "Кухня и приказ об отпуске",
-    "labeled_name": "06.01 - Кухня и приказ об отпуске",
-    "timestamp": "2026-08-18T17:56:29.245997+00:00"
+    "description": "Приказ на отпуск",
+    "labeled_name": "06.01 - Приказ на отпуск",
+    "timestamp": "2026-08-19T11:45:02.863396+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.04": {
-    "description": "Прогулка день-ночь",
-    "labeled_name": "06.04 - Прогулка день-ночь",
-    "timestamp": "2026-08-18T17:57:21.949146+00:00"
+    "description": "Прогулка по городу",
+    "labeled_name": "06.04 - Прогулка по городу",
+    "timestamp": "2026-08-19T11:46:38.257676+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.05": {
-    "description": "Рыбий глаз на улице",
-    "labeled_name": "06.05 - Рыбий глаз на улице",
-    "timestamp": "2026-08-18T17:57:28.244650+00:00"
+    "description": "Панорама городской улицы",
+    "labeled_name": "06.05 - Панорама городской улицы",
+    "timestamp": "2026-08-19T11:46:45.434284+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.08": {
-    "description": "Прогулка в парке",
-    "labeled_name": "06.08 - Прогулка в парке",
-    "timestamp": "2026-08-18T17:57:38.277517+00:00"
+    "description": "Прогулка по лесу",
+    "labeled_name": "06.08 - Прогулка по лесу",
+    "timestamp": "2026-08-19T11:46:55.744810+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.10": {
-    "description": "На прогулке",
-    "labeled_name": "06.10 - На прогулке",
-    "timestamp": "2026-08-18T17:58:03.718283+00:00"
+    "description": "Прогулка в городе",
+    "labeled_name": "06.10 - Прогулка в городе",
+    "timestamp": "2026-08-19T11:47:21.748194+00:00"
   },
   "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.12": {
-    "description": "Суши в ресторане",
-    "labeled_name": "06.12 - Суши в ресторане",
-    "timestamp": "2026-08-18T17:58:15.112666+00:00"
-  },
-  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.13": {
-    "description": "Вид из окна на закат",
-    "labeled_name": "06.13 - Вид из окна на закат",
-    "timestamp": "2026-08-18T17:58:29.708977+00:00"
-  },
-  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.14": {
-    "description": "Давление в шинах",
-    "labeled_name": "06.14 - Давление в шинах",
-    "timestamp": "2026-08-18T17:58:33.650870+00:00"
-  },
-  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.15": {
-    "description": "Выбираем аккумулятор для машины",
-    "labeled_name": "06.15 - Выбираем аккумулятор для машины",
-    "timestamp": "2026-08-18T17:58:46.489246+00:00"
-  },
-  "\\\\webdav.cloud.mail.ru@SSL\\DavWWWRoot\\Foto (Фото)\\2026\\06.16": {
-    "description": "Поход за запчастями",
-    "labeled_name": "06.16 - Поход за запчастями",
-    "timestamp": "2026-08-18T17:58:53.315457+00:00"
+    "description": "Поход в ресторан",
+    "labeled_name": "06.12 - Поход в ресторан",
+    "timestamp": "2026-08-19T11:47:33.538218+00:00"
   }
 }

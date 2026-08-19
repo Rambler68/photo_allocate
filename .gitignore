@@ -1,2 +1,4 @@
 \\__pycache__
 *.log
+.venv
+photo_allocate.log
