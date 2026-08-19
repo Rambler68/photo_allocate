@@ -2,3 +2,4 @@
 *.log
 .venv
 photo_allocate.log
+ai_label_cache.json
